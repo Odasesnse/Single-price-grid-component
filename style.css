@@ -1,0 +1,86 @@
+body {
+  background-color: #dfe1e6; 
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+.all {
+  width:70%;
+  border-radius: 10px;
+  overflow: hidden;
+    box-shadow: 1px -2px 35px 3px rgba(0,0,0,0.21);
+}
+.top {
+  background-color: white;
+  padding: 40px;
+}
+.top h3{
+  color: hsl(179, 62%, 43%);
+  margin:0;
+}
+.top h4 {
+  color: hsl(71, 73%, 54%);
+}
+.top p {
+  margin: 0;
+  opacity: 0.5;
+}
+.bottom {
+  display: flex;
+  color: white;
+}
+.bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  flex: 50%;
+  padding: 40px;
+}
+.bottom-left h4 {
+  margin:0 0 20px 0;
+}
+.dollar {
+  display:inline;
+  margin:0 0 0 5px;
+}
+#size {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+#per {
+  opacity: 0.5;
+  position: relative;
+  top:-3px;
+}
+.bottom-right {
+  background-color: #2abfbb;
+  flex: 50%;
+  padding: 40px;
+}
+button {
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 18px 25px 1px rgba(0,0,0,0.2);
+}
+.button:hover {
+  cursor: pointer;
+  opacity:.9;
+  transform: scale(1.02);
+  background-color: green;
+}
+.bottom-right h4 {
+  margin: 0 0 20px 0;
+}
+.paratwo p {
+  margin: 0;
+  opacity: 0.5;
+}
